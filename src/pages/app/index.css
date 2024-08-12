@@ -1,6 +1,8 @@
 .App{
     background-color: whitesmoke;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .cabecalho{
@@ -57,3 +59,84 @@
     height: 25px;
 }
 
+.corpo{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(/public/assets/images/vetor.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cartao{
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+
+.cartao .titulo{
+    height: 15%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.inferior{
+    width: 100%;
+    height: 82%;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.inferior .txt{
+height: 100%;
+ width: 50%;
+
+display: flex;
+padding: 55px 85px;
+justify-content: flex-start;
+font-size: 35px;
+font-style: bolder;
+gap: 15px;
+
+
+}
+
+.descricao{
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.inferior .imgs{
+    height: 100%;
+    width: 45%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inferior .imgs img{
+    width: 90%;
+}
+
+
+.faixa2{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}

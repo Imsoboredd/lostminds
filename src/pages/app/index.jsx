@@ -5,7 +5,12 @@ import { Link } from 'react-router-dom';
 export default function App() {
   return (
     <div className="App">
-          
+
+
+
+
+
+
         {/*cabeçalho*/}  
           <header className='cabecalho'>
 
@@ -30,6 +35,52 @@ export default function App() {
               </nav>
 
           </header>
+
+          {/*corpo*/}
+
+        
+          <section className='corpo'>
+              
+
+                <div className='cartao'>
+                
+                
+                    <div className='titulo'>
+                        <h1>LANÇAMENTO</h1>
+                    </div>
+                      
+                      <div className='inferior'>
+
+                         <div className='txt'>
+                            <p>Novo album Lost Minds vindo em breve</p>
+                            <p className='descricao'>"I don´t know who is there, but i´m sure that is not me!"</p>
+                         </div>
+                    <div className='imgs'>
+                      <img src='/assets/images/album.png'/>
+                    </div>
+                
+                
+                  </div>
+              
+              
+              
+              
+              
+              
+              </div>
+
+          </section>
+          
+
+          {/*começo da segundo faixa*/}
+          
+          <section className='faixa2'>
+              
+
+          </section>
+
+
+
     </div>
   );
 }
